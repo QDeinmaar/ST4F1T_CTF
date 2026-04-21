@@ -53,3 +53,23 @@ And we know:
 M going to try to brute-force a and b using a minimal python script:
 
 ![alt text](src/image.png)
+
+The result of that program is : 
+
+![alt text](src/image1.png)
+
+so khnow we khnow our a and b : a = 12 and b = 14
+
+# Final straight lane _ or so I thought.
+
+After all the failed attempts, false tracks, and wasted hours, I finally had a working hypothesis: an affine cipher. The numbers passed through unchanged, and the letters followed E (x) = ( 12*x + 14 ) mod 26.
+
+to see if it is working let s try it with the format of the flag first.
+
+I will use a minimal pyhton program to see if encoding " ST4F1T " gives " WI4W1I "
+
+![alt text](src/image2.png)
+
+The result of that is : 
+
+![alt text](src/image3.png)

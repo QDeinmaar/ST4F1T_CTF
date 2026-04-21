@@ -79,3 +79,7 @@ So we khnow that our Function is working let's decode the whole flag : # WI4W1I{
 ![alt text](src/Screenshot%202026-04-21%20181505.png)
 
 As we can see there is a lot of possible outputs and results taht can be our Flag : # from here on i dont khnow if what i did is right or no 
+
+it seem that our flag is right it start with " ST4F1T " and the three first part of our flag " H4MD_H4D6H1_4JMM1_80HKHA6H4 " seem to be right also " H4MD_H4D6H1_4JMM1_80HKHA6H4 " ==> " Hamd_hadghi_ajmmi_aitohkhagha "
+
+Hoping this is the right path !

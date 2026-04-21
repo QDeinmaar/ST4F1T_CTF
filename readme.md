@@ -76,5 +76,6 @@ The result of that is :
 
 So we khnow that our Function is working let's decode the whole flag : # WI4W1I{u4cy_u4y6u1_4scc1_80uEUO6U4_wiiquuaumywgo345678}
 
-![alt text](image.png)
+![alt text](src/Screenshot%202026-04-21%20181505.png)
+
 As we can see there is a lot of possible outputs and results taht can be our Flag : # from here on i dont khnow if what i did is right or no 

@@ -27,4 +27,29 @@ At this point i was on the edge of giving up, just sitting reading the challenge
 
 # Labyrinth
 
-Well, here — due to my lack of experience and knowledge — I thought that transforming "WI4W1I" into "ST4F1T" would be easy. I tried again all of the ROT ciphers, Caesar, substitution — but not a single one worked. At this point, the competition had already finished. But it wasn't about winning anymore — it was about solving this challenge.
+Well, here — due to my lack of experience and knowledge — I thought that transforming "WI4W1I" into "ST4F1T" would be easy. I tried again all of the ROT ciphers, Caesar, substitution — but not a single one worked. At this point, the competition had already finished. But it wasn't about winning anymore — it was about solving this challenge. 
+
+While reading the challenge again, I saw that "W" appears twice in the ciphertext, while in the original plaintext we only have two letters that are repeated — which are "T" (appearing twice in "ST4F1T"). So I deduced that "W" must correspond to both "S" and "F" based on their positions in the cipher.
+
+We know the cipher is encoded, not encrypted. So I started thinking: how can the input of two different letters produce two identical outputs?
+
+And the answer for that question come really fast it was a many-to-one function !
+
+# trying to solve
+
+Digging more deeply into many-to-one algorithms, I found this:
+C = (a × p + b) mod 26, where a and b are variables.
+
+
+Trying to solve this type of function is very hard, which is why we're going to go backwards — meaning we'll start from our plaintext and try to find the cipher, all of this in order to find a and b!
+
+So let's try it:
+
+We have E(p) = (a × p + b) mod 26
+
+And we know:
+"ST4F1T" → "WI4W1I"
+
+M going to try to brute-force a and b using a minimal python script:
+
+![alt text](image.png)

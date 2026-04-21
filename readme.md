@@ -16,3 +16,15 @@ Spoiler: It wasn't that easy.
 # My first attempts
 
 As shown in the picture the challenge is talking about how 80uKHN6H4 want to send a letter to Lvm3n , but Lvm3n is far from him. the challenge also gives us our first hint here __ is that Lvm3n doesn't khnow any thing about cryptography so 80uKHN6H4 encoded the cipher here the challenge gives us our second hint __ " so that lv3n wouldn't need a key to decode the cipher "
+
+# First Attempt 
+
+What i did next is that i tried to decoded it to Leet speak __ " because of the numbers in the cipher " __ which not only was a false track but also wasted so much time. Trying to figure it out, my second  and third attempts were also a failures : trying ROT13 , Ceaser and what ever passed under my hand.
+
+# Glance on how to solve it 
+
+At this point i was on the edge of giving up, just sitting reading the challenge over and over again to see if i had missed something. Then i saw the begining of the flag " WI4W1I " knowing that the flag format must be " ST4F1T " i tried to figure out how can i decode it back, here another probleme showed up.
+
+# Labyrinth
+
+Well, here — due to my lack of experience and knowledge — I thought that transforming "WI4W1I" into "ST4F1T" would be easy. I tried again all of the ROT ciphers, Caesar, substitution — but not a single one worked. At this point, the competition had already finished. But it wasn't about winning anymore — it was about solving this challenge.

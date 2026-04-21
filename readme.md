@@ -11,7 +11,7 @@ Spoiler: It wasn't that easy.
 
 # What i was giving 
 
-![alt text](image.png)
+![alt text](src/image.png)
 
 # My first attempts
 

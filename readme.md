@@ -11,7 +11,7 @@ Spoiler: It wasn't that easy.
 
 # What i was giving 
 
-![alt text](src/image.png)
+![alt text](src/image0.png)
 
 # My first attempts
 
@@ -52,4 +52,4 @@ And we know:
 
 M going to try to brute-force a and b using a minimal python script:
 
-![alt text](image.png)
+![alt text](src/image.png)
